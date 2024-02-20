@@ -30,6 +30,7 @@ body {
     background-size: cover;
     min-height: 70vh;
     text-align: center;
+    overflow: hidden;
     
 }
 .hero-text {
@@ -58,6 +59,7 @@ body {
 .about-image {
     grid-column: 1;
     grid-row: 1;
+    margin-top: 15%;
 }
 .about-image img {
     border-radius: 20%;
@@ -68,4 +70,52 @@ body {
     grid-row: 1;
     color: rgb(170, 170, 170);
     font-weight: bold;
+}
+.education, .experience {
+    background-color: rgb(218, 218, 218);
+    padding: 4%;
+}
+.section-header {
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+.education .container {
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    gap: 10px 30px;
+    align-items:center;
+}
+.mba-header {
+    grid-column: 1;
+    grid-row: 1;
+}
+.bs-header {
+    grid-column: 1;
+    grid-row: 2;
+}
+.mba-desc {
+    grid-column: 2;
+    grid-row: 1;
+
+}
+.bs-desc {
+    grid-column: 2;
+    grid-row: 2;
+}
+.edu-subtext {
+    color: navy;
+}
+.experience .container {
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+    gap: 10px 30px;
+    align-items:center;
+}
+.howmet-desc {
+    grid-column: 2;
+    grid-row: 1;
+}
+.LBE-desc {
+    grid-column: 2;
+    grid-row: 2;
 }
