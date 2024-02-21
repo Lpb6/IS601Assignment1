@@ -47,7 +47,7 @@ body {
 
 }
 
-.summary, .skills, .contact {
+.summary, .skills {
     background-color: rgb(38, 38, 38);
     padding: 4%;
 }
@@ -119,7 +119,7 @@ body {
     grid-column: 2;
     grid-row: 2;
 }
-.skills, .contact {
+.skills {
     color: white;
 }
 table {
@@ -149,12 +149,55 @@ tr tr td:last-child {
 tr tr:hover {
     background-color: rgb(88, 88, 88);
 }
-.contact-info {
-    
-}
 
 footer {
     text-align: center;
     color: white;
     font-size: smaller;
+}
+#contact {
+    background-color: rgb(38, 38, 38);
+    padding: 4%;
+}
+#contact h2 {
+    color: white;
+}
+.contact {
+    margin: auto;
+    max-width: 1024px;
+}
+.contact .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+}
+.contact-form {
+    text-align: center;
+    width: 50%;
+    background-color: red;
+}
+
+
+
+
+
+.contact-info {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: rgb(170, 170, 170);
+    
+}
+.contact-info a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+.contact-info div p {
+    display: inline;
+}
+.contact-info div:hover a {
+    color: rgb(255, 255, 255);
+}
+.contact-info div:hover {
+    color: rgb(255, 255, 255);
 }
