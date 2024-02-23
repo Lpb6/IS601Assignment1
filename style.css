@@ -149,6 +149,10 @@ tr tr td:last-child {
 tr tr:hover {
     background-color: rgb(88, 88, 88);
 }
+.awards-list {
+    margin: auto;
+    width: 30%;
+}
 
 footer {
     text-align: center;
